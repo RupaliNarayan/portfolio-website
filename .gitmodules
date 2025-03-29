@@ -1,0 +1,9 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "theme/portfolio"]
+	path = theme/portfolio
+	url = https://github.com/dillonzq/LoveIt.git
+[submodule "themes/new"]
+	path = themes/new
+	url = https://github.com/zetxek/adritian-free-hugo-theme.git
