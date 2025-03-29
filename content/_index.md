@@ -1,5 +1,5 @@
 ---
-title: "Data Science Portfolio"
+title: "Data Analyst Portfolio"
 description: "Turning data into actionable insights"
 ---
 
