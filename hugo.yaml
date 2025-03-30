@@ -1,7 +1,7 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "/"
 languageCode: "en-us"
 title: "Hugo Profile"
-theme: hugo-profile
+theme: custom-profile
 
 outputs:
   home:
@@ -134,161 +134,94 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Rupali."
-    subtitle: "I am a data analyst"
-    content: "A passionate data analyst. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    title: "Rupali Narayan"
+    subtitle: "I am a Data Analyst"
+    content: "A passionate data analyst with expertise in Python, SQL, and data visualization tools. I specialize in translating complex data into actionable insights."
     image: /images/hero.svg
-    bottomImage:
-      enable: true
-    # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
       url: "#"
       download: true
-      newPage: false
     socialLinks:
       fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/rupali-narayan-688a37283
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/RupaliNarayan
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      Data Analyst with expertise in Python, SQL, statistical analysis and visualization tools. Strong background in educational data analysis and project management with proven ability to translate complex data into actionable insights.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am passionate about using data to drive decision-making and solve real-world problems.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are my key technical skills:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Python, MySQL, MongoDB"
+        - "Statistical Analysis & Machine Learning"
+        - "Data Visualization (Tableau, PowerBI)" 
+        - "Excel, Data Annotation, MS Office"
+        - "Classification & Regression Models"
+        - "Data Cleaning & Preprocessing"
 
   # Experience
   experience:
-    enable: false
-    # title: "Custom Name"
+    enable: true 
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Data Analyst Intern"
+        company: "Learnbay"
+        companyUrl: ""
+        date: "Apr 2024 - Present"
+        content: |-
+          - Developed SQL-based inventory management system to track suppliers, products and orders
+          - Implemented automated ID generation and reorder level tracking features
+          - Optimized database design for efficient inventory control
+          
+      - job: "Academic Specialist"
+        company: "BYJU'S"
+        companyUrl: ""
+        date: "Nov 2021 - Apr 2024"
+        content: |-
+          - Led student performance analysis project achieving 88% prediction accuracy using linear regression
+          - Extracted and analyzed student data using Excel to identify performance trends
+          - Developed data-driven insights to enable targeted academic interventions
+          - Assisted in curriculum development aligned with industry standards
+          - Facilitated interactive online sessions fostering student engagement
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Lead Teacher"
+        company: "90+ MyTuition"
+        companyUrl: ""
+        date: "Apr 2021 - Oct 2021"
+        content: |-
+          - Utilized data-driven teaching methods to optimize individual learning outcomes
+          - Analyzed student performance metrics to identify areas for improvement
+          - Trained other teachers on educational software and analytics tools
+          - Led online Chemistry classes across various grade levels
 
   # Education
   education:
     enable: true
-    # title: "Custom Name"
-    index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "MSc in Organic Chemistry"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+          name: "R.Y.K Science College, Nashik"
+          url: ""
+        date: "2020"
+        
+      - title: "BSc.Ed in PCM"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Regional Institute of Education, Mysore"
+          url: ""
+        date: "2018"
 
   # Achievements
   achievements:
-    enable: false
-    # title: "Custom Name"
+    enable: true
     items:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
@@ -307,60 +240,45 @@ params:
         content: Contributed to a open source project.
         url: https://example.com
 
+  # Certifications
+  certifications:
+    enable: true
+    items:
+      - title: "Python for Data Science"
+        content: "Completed comprehensive training in Python programming for data analysis"
+        
+      - title: "Statistics and Machine Learning"
+        content: "Mastered statistical concepts and ML algorithms"
+        
+      - title: "SQL and MongoDB"
+        content: "Database management and querying certification"
+        
+      - title: "Tata Data Visualization"
+        content: "Empowering Business with Effective Insights Job Simulation on Forage"
+        date: "Nov 2024"
+     
+        
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: "Credit Card Fraud Detection"
+        content: "Developed ML model to detect fraudulent transactions with 99% accuracy using Logistic Regression, Random Forest and XGBoost. Applied SMOTE for handling imbalanced data."
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          - "Python"
+          - "Scikit-learn"
+          - "Machine Learning"
+          
+      - title: "Retail Customer Segmentation"
+        content: "Conducted market basket analysis and used K-means clustering for customer segmentation. Employed PCA for dimensionality reduction and visualization."
         badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "Python"
+          - "Clustering"
+          - "Data Analysis"
 
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
     btnLink: mailto:gurusabarisha@gmail.com

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sample on Hugo Profile</title>
-    <link>http://localhost:1313/tags/sample/</link>
+    <link>//localhost:1313/tags/sample/</link>
     <description>Recent content in Sample on Hugo Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sample/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/sample/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
-      <link>http://localhost:1313/blogs/emoji-support/</link>
+      <link>//localhost:1313/blogs/emoji-support/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways. :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;emoji-support&#34;&gt;Emoji Support&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;&#xA;&lt;hr&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;</description>
+      <guid>//localhost:1313/blogs/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways. :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;emoji-support&#34;&gt;Emoji Support&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Placeholder Text</title>
-      <link>http://localhost:1313/</link>
+      <link>//localhost:1313/</link>
       <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/</guid>
+      <guid>//localhost:1313/</guid>
       <description>&lt;h1 id=&#34;vagus-elidunt&#34;&gt;Vagus elidunt&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon&#34;&gt;The Van de Graaf Canon&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;mane-refeci-capiebant-unda-mulcebat&#34;&gt;Mane refeci capiebant unda mulcebat&lt;/h2&gt;&#xA;&lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. Faces illo pepulere tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p&gt;&#xA;&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p&gt;</description>
     </item>
   </channel>
