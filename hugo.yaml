@@ -141,7 +141,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://github.com/RupaliNarayan/portfolio-website/blob/main/RUPALI%20NARAYAN_EY%20(2).pdf"
       download: true
     socialLinks:
       fontAwesomeIcons:
