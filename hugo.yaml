@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "My Profile"
 theme: custom-profile
 
 outputs:
