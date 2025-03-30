@@ -155,17 +155,20 @@ params:
     enable: true
     title: "About Me"
     content: |-
-      Data Analyst with expertise in Python, SQL, statistical analysis and visualization tools. Strong background in educational data analysis and project management with proven ability to translate complex data into actionable insights.
-
-      I am passionate about using data to drive decision-making and solve real-world problems.
+      A results-driven Data Analyst with expertise in Python, SQL, statistical analysis, and data visualization tools like Tableau and Power BI. With a strong background in educational data analysis and project management, I excel in data wrangling, ETL, A/B testing, and predictive analytics to drive strategic decisions. Skilled in dashboard development, automation using Python, and stakeholder communication, I translate complex data into actionable insights. Passionate about leveraging data to solve real-world problems, I thrive in dynamic environments, bridging the gap between data and business strategy.
     skills:
       enable: true
       title: "Here are my key technical skills:"
       items:
-        - "Python, MySQL, MongoDB"
-        - "Statistical Analysis & Machine Learning"
+        - "Python"
+        - "MySQL"
+        - "MongoDB"
+        - "Statistical Analysis"
+        - "Machine Learning"
         - "Data Visualization (Tableau, PowerBI)" 
-        - "Excel, Data Annotation, MS Office"
+        - "Advanced Excel"
+        - "Data Annotation"
+        - "MS Office"
         - "Classification & Regression Models"
         - "Data Cleaning & Preprocessing"
 
@@ -213,7 +216,7 @@ params:
           url: ""
         date: "2020"
         
-      - title: "BSc.Ed in PCM"
+      - title: "BSc.BEd in PCM"
         school:
           name: "Regional Institute of Education, Mysore"
           url: ""
@@ -221,7 +224,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     items:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
@@ -281,7 +284,7 @@ params:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:rupalinarayan@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -294,7 +297,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com
